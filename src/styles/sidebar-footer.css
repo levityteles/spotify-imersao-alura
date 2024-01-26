@@ -1,0 +1,254 @@
+
+
+body {
+    background-color: black;
+    font-family: var(--font-dm-sans);
+    overflow: hidden;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0px 0px 16px;
+}
+
+.sidebar__navigation .logo{
+    display: flex;
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0px 0px 16px;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.sidebar nav ul{
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar nav ul li{
+    padding: 10px 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.library{
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    height: 400px;
+}
+
+.library .library__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button{
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: 0;
+    padding: 20px 10px;
+}
+
+.library .library__button .fa{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.library .library__content .fa-plus{
+    margin: 24px 10px;
+}
+
+.section-playlist{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: first baseline;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+.section-playlist .section-playlist__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist__content .text{
+    padding-bottom: 14px;
+    color: #fff;
+}
+
+.section-playlist__content .title{
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+}
+
+.section-playlist__content .subtitle{
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.section-playlist__content .section-playlist__button{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    padding: 10px;
+    margin-top: 12px;
+    width: 113px;
+}
+
+.sidebar .cookies{
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a{
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.sidebar .cookies a:hover{
+    text-decoration: underline;
+}
+
+.languages .languages__button{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #878787;
+    border-radius: 20px;
+    padding: 8px;
+    cursor: pointer;
+    align-items: center;
+    font-weight: bold;
+    width: 170px;
+    margin: 8px;
+
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    height: 70px;
+    width: 98.5%;
+    background: linear-gradient(to right, #ae2997, #825fc3, #5199f4);
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    margin: 0 10px 10px 10px;
+    border-radius: 8px;
+    opacity: 0;
+    transition: all ease-in-out 500ms;
+}
+
+.footer.show{
+    display: flex;
+    opacity: 1;
+}
+
+.ph-x{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5199f4;
+    position: absolute;
+    top: -2.1rem;
+    right: 0;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 3rem;
+    color: rgba(255, 255, 255, 0.705);
+    cursor: pointer;
+}
+
+.plus{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer p{
+    margin: 0 0 15px 15px;
+    font-weight: bold;
+}
+
+.footer .premium{
+    margin: 20px 0 0 15px;
+}
+
+.button__footer{
+    margin: auto 30px;
+}
+
+.button__footer button{
+    font-size: 15px;
+    border-radius: 25px;
+    border: none;
+    padding: 14px 30px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.button__footer button:hover{
+    transform: scale(1.09);
+    transition: .5s;
+    text-decoration: underline;
+
+}
+ 
+
+
+
+
+/*  cor1- #94127d
+    cor2- #5e42ac
+    cor3- #326fc1 */

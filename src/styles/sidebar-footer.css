@@ -60,7 +60,8 @@ body {
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
-    height: 400px;
+    height: 63.5vh;
+    margin-left: 5px;
 }
 
 .library .library__content{

@@ -37,16 +37,17 @@ document.addEventListener("input", function () {
   requestApi(searchTerm);
 })
 
-// COLORS CSS **********************************************************************
+    // CLOSE FOOTER
 
 document.querySelector("#close").addEventListener("click", function() {
-    document.querySelector(".footer").classList.remove("show");
+  document.querySelector(".footer").classList.remove("show");
 });
 
+// COLORS CSS **********************************************************************
 
 document.addEventListener("DOMContentLoaded", function () {
     // Lista de cores disponíveis na paleta
-    const colorPalette = ["#687EFF", "#80B3FF", "#98E4FF", "#B6FFFA"];
+    const colorPalette = ["#131313d5", "#1313137a", "#13131350", "#1313130c"];
   
     // Seleciona todos os elementos com a classe "card"
     const cards = document.querySelectorAll(".cards");

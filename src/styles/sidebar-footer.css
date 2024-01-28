@@ -2,7 +2,7 @@
 
 body {
     background-color: black;
-    font-family: var(--font-dm-sans);
+    /* font-family: var(--font-dm-sans); */
     overflow: hidden;
 }
 
@@ -13,17 +13,19 @@ body {
     bottom: 0;
     padding: 12px;
     width: 300px;
+    border: 1px solid red;
 }
 
 .sidebar__navigation {
-    background-color: #121212;
+    background-image: linear-gradient(to right, #12121200, #1212127e, #121212);
     border-radius: 8px;
     padding: 16px 0px 0px 16px;
+    border: 1px solid var(--bg-arrow-color);
 }
 
 .sidebar__navigation .logo{
     display: flex;
-    background-color: #121212;
+
     border-radius: 8px;
     padding: 16px 0px 0px 16px;
 }
@@ -47,10 +49,17 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
+    padding-left: 5px;
 }
 
+ul li .space{
+    padding-left: 5px;
+}
+
+
+
 .library{
-    background-color: #121212;
+    background-image: linear-gradient(to right, #12121200, #1212127e, #121212);
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -62,6 +71,7 @@ body {
     margin-top: 10px;
     height: 63.5vh;
     margin-left: 5px;
+    border: 1px solid var(--bg-arrow-color);
 }
 
 .library .library__content{
@@ -121,14 +131,41 @@ body {
 
 .section-playlist__content .title{
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
+    
 }
 
 .section-playlist__content .subtitle{
     font-weight: bold;
     font-size: 12px;
-    font-family: "DM Sans", sans-serif;
+    
 }
+
+.ph-whatsapp-logo{
+    width: 200px;
+    height: 200px;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais .ph{
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+
+    border-radius: 50%;
+    padding: 10px;
+    transition: .5s;
+    transform: scale(1.09);
+    background-image: linear-gradient(to right, #12121200, #1212127e, #121212);
+}
+.redes-sociais .ph:hover{
+    background-color: #00d153;
+}
+
+
 
 .section-playlist__content .section-playlist__button{
     display: flex;
@@ -179,13 +216,13 @@ body {
     justify-content: space-between;
     position: fixed;
     bottom: 0;
-    height: 70px;
+    height: 65px;
     width: 98.5%;
-    background: linear-gradient(to right, #ae2997, #825fc3, #5199f4);
+    background-image: linear-gradient(to right, #2c2c2c, #1d1d1d, #131313);
     color: #fff;
     font-family: "DM Sans", sans-serif;
     font-size: 14px;
-    margin: 0 10px 10px 10px;
+    margin: 15px 10px 0px 10px;
     border-radius: 8px;
     opacity: 0;
     transition: all ease-in-out 500ms;
@@ -200,14 +237,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #5199f4;
     position: absolute;
-    top: -2.1rem;
+  
     right: 0;
     height: 2rem;
     width: 2rem;
     border-radius: 3rem;
-    color: rgba(255, 255, 255, 0.705);
     cursor: pointer;
 }
 
@@ -216,13 +251,19 @@ body {
     flex-direction: column;
 }
 
-.footer p{
-    margin: 0 0 15px 15px;
-    font-weight: bold;
-}
 
 .footer .premium{
-    margin: 20px 0 0 15px;
+    margin: 15px 0 0 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.footer .like{
+    margin: 0 0 0 15px;
+    padding-top: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
 }
 
 .button__footer{
@@ -240,11 +281,13 @@ body {
 }
 
 .button__footer button:hover{
-    transform: scale(1.09);
-    transition: .5s;
-    text-decoration: underline;
-
+    transform: translate(1.05);
+    transition: .3s;
+    background-color: #00d153;
+    color: white;
 }
+
+
  
 
 

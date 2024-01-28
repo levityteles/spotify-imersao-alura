@@ -1,10 +1,13 @@
 /* Header */
 
 .main-container{
-    max-width: 80vw;
-    height: 98vh;
+    /* max-width: 80vw;
+    height: 98vh; */
+    width: calc(100%-320px);
+    height: calc(100%-385px);
     margin-left: 320px;
     margin-right: 56px;
+    border: 1px solid red;
 }
 
 .header__navigation{
@@ -15,8 +18,9 @@
     margin-top: 12px;
     margin-left: 0.1rem;
     border-radius: 8px;
-    background-color: #121212;
-    width: 72vw;
+    background-image: linear-gradient(to right, #121212, #1212127e, #12121200);
+    width: 100%;
+    border: 0.2px solid var(--bg-arrow-color)
 }
 
 .header__navigation .navigation{
@@ -51,6 +55,14 @@
 .header__login{
     display: flex;
     align-items: center;
+}
+
+
+.header__login .login:hover{
+    transform: translate(1.05);
+    transition: .3s;
+    background-color: #00d153;
+    color: white;
 }
 
 .header__search{
@@ -95,8 +107,8 @@
 }
 
 .header__login .login{
-    width: 100px;
-    height: 48px;
+    width: 90px;
+    height: 40px;
     color: #000;
     font-size: 16px;
     font-weight: 700;

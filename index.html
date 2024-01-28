@@ -16,6 +16,9 @@
     integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
     integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 
@@ -30,14 +33,14 @@
       <ul>
         <li>
           <a href="#">
-            <span class="fa fa-home"></span>
-            <span>Inicio</span>
+            <span class="fa fa-home" id="space"></span>
+            <span class="space">Inicio</span>
           </a>
         </li>
         <li>
           <a href="#">
             <span class="fa fa-search"></span>
-            <span>Buscar</span>
+            <span class="space">Buscar</span>
           </a>
         </li>
       </ul>
@@ -62,7 +65,12 @@
       <div class="cookies">
         <a href="#">Cookies</a>
       </div> <!--Cookies-->
-      <div class="languages">
+      <div class="redes-sociais">
+        <a href="https://www.facebook.com/Spotify" target="_blank"><i class="ph ph-facebook-logo"></i></a>
+        <a href="https://www.instagram.com/spotify/" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+        <a href="https://twitter.com/spotify" target="_blank"><i class="ph ph-twitter-logo"></i></a>
+      </div>
+      <div class="languages"> 
         <button class="languages__button">
           <span class="fa fa-globe"></span>
           <span>Português do Brasil</span>
@@ -94,7 +102,7 @@
       <section class="section1">
         <div class="playlist-container" id="result-playlists">
           <div class="playlist-all">
-            <h1 class="agaum">Playlist</h1>
+            <h1 class="agaum">Oque você deseja ouvir hoje?</h1>
             <!-- CONTAINER GERAL PLAYLIST -->
 
             <div class="container__list">
@@ -105,138 +113,172 @@
                   <a href="#" class="cards">
                     <div class="album">
                       <img src="./src/assets/playlist/1.jpeg" alt="" />
-                      <p>teste</p>
+                      <p>Natalina</p>
                     </div>
                   </a>
                   <!-- PLAYLIST 2 -->
                   <a href="#" class="cards">
                     <div class="album">
                       <img src="./src/assets/playlist/2.png" alt="" />
-                      <p>teste</p>
+                      <p>Pop Mix</p>
                     </div>
                   </a>
                   <!-- PLAYLIST 3 -->
                   <a href="#" target="_blank" class="cards">
                     <div class="album">
                       <img src="./src/assets/playlist/3.jpeg" alt="" />
-                      <p>teste</p>
+                      <p>Rap</p>
                     </div>
                   </a>
                   <!-- PLAYLIST 4 -->
                   <a href="#" class="cards">
                     <div class="album">
                       <img src="./src/assets/playlist/4.jpeg" alt="" />
-                      <p>teste</p>
+                      <p>Podcast</p>
                     </div>
                   </a>
                   <!-- PLAYLIST 5 -->
                   <a href="#" class="cards">
                     <div class="album">
                       <img src="./src/assets/playlist/5.jpeg" alt="" />
-                      <p>testes</p>
+                      <p>Whey</p>
                     </div>
                   </a>
                   <!-- PLAYLIST 6 -->
                   <a href="#" class="cards">
                     <div class="album">
                       <img src="./src/assets/playlist/6.jpeg" alt="" />
-                      <p>teste</p>
+                      <p>Sobre ciência</p>
                     </div>
                   </a>
                   <!-- PLAYLIST 7 -->
                   <a href="#" class="cards">
                     <div class="album">
                       <img src="./src/assets/playlist/7.jpeg" alt="" />
-                      <p>teste</p>
+                      <p>Sertanejo</p>
                     </div>
                   </a>
                   <!-- PLAYLIST 8 -->
                   <a href="" class="cards">
                     <div class="album">
                       <img src="./src/assets/playlist/8.jpeg" alt="" />
-                      <p>teste</p>
+                      <p>Periclão</p>
                     </div>
                   </a>
                   <!-- PLAYLIST 9 -->
                   <a href="" class="cards">
                     <div class="album">
                       <img src="./src/assets/playlist/9.jpeg" alt="" />
-                      <p>teste</p>
+                      <p>Funk</p>
                     </div>
                   </a>
                   <!-- PLAYLIST 10 -->
                   <a href="" class="cards">
                     <div class="album">
                       <img src="./src/assets/playlist/10.jpeg" alt="" />
-                      <p>teste</p>
+                      <p>MPB</p>
                     </div>
                   </a>
                   <!-- PLAYLIST 11 -->
                   <a href="" class="cards">
                     <div class="album">
                       <img src="./src/assets/playlist/11.jpeg" alt="" />
-                      <p>teste</p>
+                      <p>Rock</p>
                     </div>
                   </a>
                   <!-- PLAYLIST 12 -->
                   <a href="" class="cards">
                     <div class="album">
                       <img src="./src/assets/playlist/12.jpeg" alt="" />
-                      <p>teste</p>
+                      <p>Trap</p>
                     </div>
                   </a>
                   <!-- PLAYLIST 13 -->
                   <a href="" class="cards">
                     <div class="album">
                       <img src="./src/assets/playlist/13.jpeg" alt="" />
-                      <p>teste</p>
+                      <p>Indie</p>
                     </div>
                   </a>
                   <!-- PLAYLIST 14 -->
                   <a href="" class="cards">
                     <div class="album">
                       <img src="./src/assets/playlist/14.jpeg" alt="" />
-                      <p>teste</p>
+                      <p>Boas sensações</p>
                     </div>
                   </a>
                   <!-- PLAYLIST 15 -->
                   <a href="" class="cards">
                     <div class="album">
                       <img src="./src/assets/playlist/15.jpeg" alt="" />
-                      <p>teste</p>
+                      <p>Gringa</p>
+                    </div>
+                  </a>
+                  <!-- PLAYLIST 16 -->
+                  <a href="" class="cards">
+                    <div class="album">
+                      <img src="./src/assets/playlist/16.jpg" alt="" />
+                      <p>Love Song</p>
+                    </div>
+                  </a>
+                  <!-- PLAYLIST 17 -->
+                  <a href="" class="cards">
+                    <div class="album">
+                      <img src="./src/assets/playlist/17.jpg" alt="" />
+                      <p>Pop Rock</p>
+                    </div>
+                  </a>
+                  <!-- PLAYLIST 18 -->
+                  <a href="" class="cards">
+                    <div class="album">
+                      <img src="./src/assets/playlist/18.jpg" alt="" />
+                      <p>Funk Dançante</p>
+                    </div>
+                  </a>
+                  <!-- PLAYLIST 19 -->
+                  <a href="" class="cards">
+                    <div class="album">
+                      <img src="./src/assets/playlist/19.jpg" alt="" />
+                      <p>RAP Nacional</p>
+                    </div>
+                  </a>
+                  <!-- PLAYLIST 20 -->
+                  <a href="" class="cards">
+                    <div class="album">
+                      <img src="./src/assets/playlist/20.jpg" alt="" />
+                      <p>Trap Trap</p>
                     </div>
                   </a>
                 </section>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-                            <!-- API -->
-      <div id="result-artist" class="hidden">
-        <div class="grid-container">
-          <div class="artist-card" id="">
-            <div class="card-img">
-              <img id="artist-img" class="artist-img" />
-              <div class="play">
-                <span class="fa fa-solid fa-play"></span>
+        </div> <!--resultp-->
+        <div id="result-artist" class="hidden">
+          <div class="grid-container">
+            <div class="artist-card" id="">
+              <div class="card-img">
+                <img id="artist-img" class="artist-img" />
+                <div class="play">
+                  <span class="fa fa-solid fa-play"></span>
+                </div>
+              </div>
+              <div class="card-text">
+                <a title="Foo Fighters" class="vst" href=""></a>
+                <span class="artist-name" id="artist-name"></span>
+                <span class="artist-categorie">Artista</span>
               </div>
             </div>
-            <div class="card-text">
-              <a title="Foo Fighters" class="vst" href=""></a>
-              <span class="artist-name" id="artist-name"></span>
-              <span class="artist-categorie">Artista</span>
-            </div>
           </div>
-        </div>
-      </div> <!-- API -->
+        </div> <!-- API -->
+      </section>
     </div> <!--main-container-->
   </main>
 
   <footer class="footer show">
     <div class="plus">
-      <p class="premium">Testar o premium de graça</p><br>
-      <p>Increva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.
+      <p class="premium">Testar o premium de graça</p>
+      <p class="like">Increva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito.
       </p>
     </div>
     <div class="button__footer">

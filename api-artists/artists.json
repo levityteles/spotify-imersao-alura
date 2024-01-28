@@ -41,6 +41,18 @@
             "name": "Caetano Veloso",
             "genre": "MPB",
             "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757"
-        }
-    ]
+        },
+        {
+            "id": 9,
+            "name": "Ed Sheeran",
+            "genre": "SongLove",
+            "urlImg": "https://www.vagalume.com.br/ed-sheeran/images/ed-sheeran.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Travis Scott",
+            "genre": "Trap",
+            "urlImg": "https://www.vagalume.com.br/travis-scott/images/travis-scott.jpg"
+        }]
+
 }

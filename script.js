@@ -5,7 +5,7 @@ const playlistContainer = document.getElementById("result-playlists");
 console.log(searchInput.value);
 
 function requestApi(searchTerm) {
-  fetch(`http://localhost:3000/artists?name_like=${searchTerm}`)
+  fetch(`https://json-server-nine-xi.vercel.app/artists?name_like=${searchTerm}`)
     .then((response) => response.json())
     .then((result) => displayResults(result))
 }
